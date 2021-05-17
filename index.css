@@ -1,0 +1,147 @@
+
+body{ margin: 0; padding: 0;}
+
+.container{
+    text-align: center;
+    padding: 10%;
+    background: red;
+    font-size: 50px;
+}
+.container h1{
+    color: springgreen;
+}
+.container div#rel{
+    color: yellow;
+    background: rgba(110, 5, 5, 0.657);
+
+}
+
+.container .butao{
+    display: flex;
+    
+}
+.b0{
+    background: purple
+}
+.container .butao .b1{
+    background: red;
+    border-radius: 100%;
+}
+
+
+.b2{
+    background: purple;
+}
+    
+ /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*area interaja*/
+.ar{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.area{
+    font-size: 30px;
+    background: chartreuse;
+    width: 150px;
+    height: 150px;
+}
+
+.area p{
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 20% 0;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*Um botão*/
+
+div.div{
+    background: deeppink;
+    text-align: center;
+}
+
+.div button{
+    background: darkslateblue;
+    border-radius: 100%;
+}
+
+.div p{
+    color: darkorange;
+}
+
+/*############################################################*/
+.cont{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    background: cornflowerblue;
+
+}
+.cont h1{
+    font-size: 50px;
+    color: darkred;   
+}
+
+#form{
+    color: cornsilk;
+    background: black
+}
+    
+
+#form input{
+    padding: 5px;
+    margin: 5px;
+}
+#form label{}
+/*//////////////////////////////////////////////////////////////*/
+
+.cor{
+    background: greenyellow;
+}
+.corr {
+    background: red;
+}
+
+
+.containerImc{
+    text-align: center;
+    background: dimgrey;
+}
+.containerImc h1{
+    color: gold;
+}
+.containerImc #formImc{
+    background: goldenrod;
+}
+.containerImc p{
+    color: honeydew;
+}
+#resultado{
+    background: dimgray;
+}
+/*||||||||||||||||||||||||||||||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.cronometro{
+    padding:0;
+    margin: 8%;
+    text-align: center;
+    background: chocolate;
+    height: 700px;
+    width: 700px;
+    border-radius: 100%;
+    font-size: 50px;
+    
+}
+.prcentro{
+    display: flex;
+    justify-content: center;
+    
+}
+.cronometro p{
+    
+    
+}
+.cortimer{
+    color: blue;
+}
